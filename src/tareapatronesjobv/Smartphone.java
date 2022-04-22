@@ -84,9 +84,9 @@ public class Smartphone implements Articulo{
     @Override
     public String toString() {
         return "Smartphone{" + "modelo=" + modelo + ", almacenamiento=" 
-                + almacenamiento + "GB , ram=" + ram + " GB, " +
+                + almacenamiento + " GB , ram=" + ram + " GB, " +
                 "Tipo de Entrada=" + tipoEntrada +
-                ", aux= "+ aux + ", tamanio=" + tamanio +" pulgadas"+ + '}';
+                ", aux= "+ aux + ", tamanio=" + tamanio +" pulgadas" + '}';
     }
 
    

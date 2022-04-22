@@ -102,7 +102,7 @@ public class Tablet implements Articulo{
     @Override
     public String toString() {
         return "Tablet{" + "modelo=" + modelo + ", tipoEntrada=" + tipoEntrada 
-                + ", Teclado=" + teclado + ", ram=" + ram + ", almacenamiento=" +
+                + ", Teclado=" + teclado + ", ram=" + ram + " GB, almacenamiento=" +
                 almacenamiento + " " + escalaAlmacenamiento + ", stylus=" 
                 + stylus + ", tamanioPantalla=" + tamanioPantalla + " pulgadas" 
                 + '}';

@@ -92,7 +92,7 @@ public class Computadora implements Articulo{
 
     @Override
     public String toString() {
-        return "Computadora{" +"marca=" + marca + "procesador=" + procesador + 
+        return "Computadora{" +"marca= " + marca + ", procesador=" + procesador + 
                 ", ram=" + ram  + " GB, almacenamiento=" + almacenamiento +" "+
                 escalaAlmacenamiento + ", ssd=" + ssd + ", tamanioPantalla=" + 
                 tamanioPantalla+ " pulgadas" + '}';
