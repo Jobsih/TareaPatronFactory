@@ -18,4 +18,5 @@ public interface Articulo {
     public static final int TABLET_SAMSUNG = 7;
     public static final int TABLET_POLAROID = 8;
     public static final int TABLET_SURFACE = 9;
+    public static final int TABLET_IPAD = 10;
 }

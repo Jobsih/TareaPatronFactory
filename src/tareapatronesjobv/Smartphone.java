@@ -12,21 +12,23 @@ import tareapatrones.factory.Articulo;
  */
 public class Smartphone implements Articulo{
     
-    private String marca;
+    private String modelo;
     private int almacenamiento;
     private int ram;
+    private String tipoEntrada;
     private boolean aux;
     private float tamanio;
 
     public Smartphone() {
     }
 
-    public Smartphone(String marca, int almacenamiento, int ram, boolean aux , float tamaño) {
-        this.marca = marca;
+    public Smartphone(String modelo, int almacenamiento, int ram, String tipoEntrada ,boolean aux , float tamanio) {
+        this.modelo = modelo;
         this.almacenamiento = almacenamiento;
         this.ram = ram;
+        this.tipoEntrada = tipoEntrada;
         this.aux = aux;
-        this.tamanio = tamaño;
+        this.tamanio = tamanio;
     }
 
     public boolean isAux() {
@@ -39,12 +41,12 @@ public class Smartphone implements Articulo{
     
     
 
-    public String getMarca() {
-        return marca;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
     public int getAlmacenamiento() {
@@ -70,11 +72,24 @@ public class Smartphone implements Articulo{
     public void setTamanio(float tamaño) {
         this.tamanio = tamaño;
     }
+    
+     public String getTipoEntrada() {
+        return tipoEntrada;
+    }
+
+    public void setTipoEntrada(String tipoEntrada) {
+        this.tipoEntrada = tipoEntrada;
+    }
 
     @Override
     public String toString() {
-        return "Smartphone{" + "marca=" + marca + ", almacenamiento=" + almacenamiento + "GB , ram=" + ram + " GB, tamanio=" + tamanio +" pulgadas"+ + '}';
+        return "Smartphone{" + "modelo=" + modelo + ", almacenamiento=" 
+                + almacenamiento + "GB , ram=" + ram + " GB, " +
+                "Tipo de Entrada=" + tipoEntrada +
+                ", aux= "+ aux + ", tamanio=" + tamanio +" pulgadas"+ + '}';
     }
+
+   
     
     
 }
